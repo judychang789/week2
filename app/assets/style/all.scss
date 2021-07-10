@@ -1,0 +1,211 @@
+
+.container{
+    width: 1920px;
+    max-width: 100%;
+    //  width:100%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight:500;
+    font-style: italic;
+    text-align: center;
+
+    .wrap{
+        margin: 0 auto;
+        // width: 62.5%;
+        width: 1200px;
+    }
+    .text{    
+        font-size: 24px;  
+        line-height:36px;
+    }
+    a{
+        display: block;
+    }
+    .titArea{
+        font-size: 64px;
+        line-height: 84px;     
+        text-align: center;
+        font-weight:500;
+        font-style: italic;
+        padding-top: 56px;
+    }
+
+}
+
+.banner{
+    padding: 308px 0;
+    background-image: url("https://hexschool.github.io/webLayoutTraining1st/week2/banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .bannerIn{
+        color: #fff;
+        font-style: italic;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: left;
+
+        .tlt1{
+            font-size: 24px;
+            line-height: 42px;
+        }
+        .tit2{
+            font-size: 80px;
+            line-height: 106px;
+            margin-bottom: 32px;
+            font-weight: bold;
+        }
+        ul{
+            display: flex;
+            margin-top: 40px;
+            li{
+                width: 60px;  
+                padding: 0 8px;           
+            }
+        }
+    }
+}
+
+.aboutBg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 42px;
+
+    // .wrap{
+    //     width: 384px;
+    // }
+    img{
+        width: 384px;
+        margin: 40px auto 20px;
+    }
+    .text{
+        margin-bottom: 10px;
+        // border-bottom: 1px #000 solid;
+        padding-bottom: 24px;
+        position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            width: 412px;
+            height: 1px;
+            background-color: #000;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0;
+        }
+    }
+       
+    ul{       
+        li{
+            font-size: 24px;
+            line-height: 42px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            padding: 14px 0;
+        }
+        span{
+            margin-right: 16px;
+            border-radius: 50%;
+            display: inline-block;
+            background-color: #891818;
+            width: 22px;
+            height: 22px;            
+        }
+    }
+}
+
+
+.brandBg{
+    background-color:#000000;
+    color: #fff;
+    padding-bottom: 160px;
+    
+    .wrap{
+        
+        .text{
+            margin: 12px 0 68px;
+        }
+        ul{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: -20px -12px;
+            li{
+                padding: 20px 0;
+                &:nth-of-type(2) ,
+                &i:nth-of-type(3){  
+                    width: 50%;  
+                    padding: 20px 12px;     
+                }
+            }
+        }
+    }
+
+
+}
+
+    .worksBg{
+        padding-bottom: 144px;
+        .wrap{
+            .titArea{
+                margin-bottom: 16px;
+            }
+            .text{
+                margin-bottom: 56px;
+            }
+
+            ul{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin: 0 -12px -48px;
+                li{
+                    width: 33.3%;
+                    padding: 0 12px 48px;
+                    span{
+                        margin-top: 16px;
+                        display: block;
+                        font-size: 20px;   
+                        line-height: 42px;                     
+                    }
+                    &:nth-of-type(4) ,
+                    &:nth-of-type(5){  
+                        width: 50%;   
+                    }
+                }
+            }
+
+        }
+    }
+
+
+    .contact{
+        background-color: #000000;
+        padding: 8px 0 64px;
+        color: #fff;
+        .titArea{
+            margin-bottom: 8px;
+        }
+        ul{
+            line-height: 32px;
+            li{
+                display: block;
+                padding: 8px 0;
+            }
+        }
+    }
+
+
+
+
+
+
+    
